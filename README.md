@@ -1,5 +1,12 @@
 # Quartz - PDF Index
 
+> [!CAUTION]
+> This plugin hasn't been tested nor updated in a while, and is **no longer maintained**, as I no longer need it and don't have the time to work on it.
+>
+> Feel free to fork or something and start maintaing your own version of the plugin. I left some improvement ideas in the issues of the repo, you can also find them below in the warning box.
+>
+> Have a nice one!
+
 Quartz has a search feature that lets user enter text and find relevant results across the whole website. However, by default, PDF documents are not included in this search feature.
 
 Including PDFs in indexing can prove to be very useful. For example, I created this plugin to create a website with my notes for an academic course and be able to search through my notes and through the slides very rapidly.
@@ -66,11 +73,3 @@ Plugin.PDFIndex(),
 ```
 
 from the plugins list in the Quartz configuration. An extended build-time can be due to large PDF files that take time to be parsed and indexed.
-
-## Contributing
-
-Contributions are welcome, in the form of an issue or a pull request.
-
-If you are planning to contribute a significant amount of code to the project, please reach out with an issue first so that you do not waste your time on a pull-request that might be out-of-scope.
-
-Happy coding !
